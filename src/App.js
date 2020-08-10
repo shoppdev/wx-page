@@ -4,6 +4,7 @@ import DisplayAlerts from './DisplayAlerts'
 
 
 var nationalURL = 'https://api.weather.gov/alerts'
+var stateURL = 'https://api.weather.gov/alerts/active?area=KS'
 
 
 
@@ -19,7 +20,7 @@ constructor(props){
 componentDidMount(){
   fetch(nationalURL)
   .then(resp => resp.json())
-  .then(alerts => this.setState({alerts: alerts}))
+  .then(alerts => this.setState({alerts: alerts['features']}))
   .then(done => this.setState({isLoaded: 'True'}))
 }
 
