@@ -5,7 +5,7 @@ const AlertCard = ({location, event, expires, headline, instruction}) =>{
         <div className="window">
             <p>{location}</p>
             <p>{event}</p>
-            <p>{expires}</p>
+            <p>Expires: {expires}</p>
             <p>{instruction}</p>
         </div>
     )

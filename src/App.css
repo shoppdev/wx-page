@@ -1,7 +1,14 @@
+body {
+  text-align: center;
+  background-color: aqua;
+}
+
 .window {
   border: 1px solid black;
   text-align: center;
-  width: 75%;
+  width: 65%;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 .grid-container {
