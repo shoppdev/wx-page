@@ -1,18 +1,4 @@
 body {
   text-align: center;
-  background-color: aqua;
-}
-
-.window {
-  border: 1px solid black;
-  text-align: center;
-  width: 65%;
-  margin: auto;
-  margin-bottom: 10px;
-}
-
-.grid-container {
-  display: inline-grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 1em;
+  background: linear-gradient(to right, #3e3450, #1d3449);
 }

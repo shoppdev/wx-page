@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import DisplayAlerts from './DisplayAlerts'
+import 'tachyons'
 
 
 var nationalURL = 'https://api.weather.gov/alerts'
@@ -29,9 +30,20 @@ render(){
     return<h1>Loading...</h1>
   }else{
     return(
-      <div>
-        <DisplayAlerts alerts={this.state.alerts}/>
+      <div class="mw9 center ph3-ns">
+        <div class="cf ph2-ns">
+          <div class="fl w-100 w-50-ns pa2">
+            <div class="outline bg-none pv4">
+              <DisplayAlerts alerts={this.state.alerts} />
+            </div>
+          </div>
+          <div class="fl w-100 w-50-ns pa2">
+          <div class="outline bg-none pv4">
+            
+          </div>
+        </div>
       </div>
+    </div>
     )
   }
 }
