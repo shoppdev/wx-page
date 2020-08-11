@@ -4,17 +4,26 @@ const Filters = () => {
     return(
         <form>
             <label>
-                <input type='radio' value='tor' />
+                <input type='checkbox' value='tor' />
                 Tornado
             </label>
             <label>
-                <input type='radio' value='strm' />
+                <input type='checkbox' value='strm' />
                 T-Storm
             </label>
             <label>
-                <input type='radio' value='strm' />
-                Moon Fall!
+                <input type='checkbox' value='fld' />
+                Flood
             </label>
+            <label>
+                <input type='checkbox' value='spc' />
+                Special Weather Statement
+            </label>
+            <label>
+                <input type='checkbox' value='all' />
+                All
+            </label>
+
         </form>
     )    
 }
