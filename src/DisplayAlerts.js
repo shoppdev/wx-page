@@ -2,7 +2,7 @@
  import AlertCard from './AlertCard'
 
  const DisplayAlerts = ({ alerts }) =>{
-    console.log(alerts)
+
      return(
          <div>
              {

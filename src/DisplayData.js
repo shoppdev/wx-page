@@ -1,12 +1,15 @@
 import React from 'react'
 
-const DisplayData = () =>{
+const DisplayData = ({ alerts }) =>{
     return(
         <div>
-            <h3>Raw Data goes here...</h3>
-            <p>^.^</p>
+            <h1>^.^</h1>
+            <h1>Weather News!</h1>
+            <p>Comming Soon!</p>
         </div>
     )
 }
 
 export default DisplayData
+
+//may change this to show breaking weather news
