@@ -31,15 +31,15 @@ render(){
     return<h1>Loading...</h1>
   }else{
     return(
-      <div classname="mw9 center ph3-ns">
-        <div classname="cf ph2-ns">
-          <div classname="fl w-100 w-50-ns pa2">
-            <div classname="outline bg-none pv4">
+      <div className="mw9 center ph3-ns">
+        <div className="cf ph2-ns">
+          <div className="fl w-100 w-50-ns pa2">
+            <div className="outline bg-none pv4">
               <DisplayAlerts alerts={this.state.alerts} />
             </div>
           </div>
-          <div classname="fl w-100 w-50-ns pa2">
-          <div classname="outline bg-none pv4">
+          <div className="fl w-100 w-50-ns pa2">
+          <div className="outline bg-none pv4">
             <DisplayData />
           </div>
         </div>
