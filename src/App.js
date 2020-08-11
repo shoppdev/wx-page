@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import DisplayAlerts from './DisplayAlerts'
+import DisplayData from './DisplayData'
 import 'tachyons'
 
 
@@ -39,7 +40,7 @@ render(){
           </div>
           <div class="fl w-100 w-50-ns pa2">
           <div class="outline bg-none pv4">
-            
+            <DisplayData />
           </div>
         </div>
       </div>
