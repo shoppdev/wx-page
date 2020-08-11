@@ -3,7 +3,7 @@ import './App.css';
 import DisplayAlerts from './DisplayAlerts'
 import DisplayData from './DisplayData'
 import Search from './Search'
-import SearchButton from './SearchButton'
+import Filters from './Filters'
 import 'tachyons'
 
 
@@ -48,7 +48,7 @@ const filteredAlerts = this.state.alerts.filter(alert =>{
       <div>
         <header>
         <Search onSelect={this.onSelect}/>
-        {/* <SearchButton /> */}
+        {/* <Filters /> */}
         </header>
         <div className="mw9 center ph3-ns">
           <div className="cf ph2-ns">

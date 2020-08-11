@@ -2,6 +2,7 @@
  import AlertCard from './AlertCard'
 
  const DisplayAlerts = ({ alerts }) =>{
+     //console.log(alerts)
     if(alerts.length <= 0){
         return <h1>All Clear! ^.^</h1>
     } else {
