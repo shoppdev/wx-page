@@ -18,7 +18,7 @@ constructor(props){
   this.state = {
     alerts: [],
     isLoaded: 'False',
-    searchField: 'MO'
+    searchField: ''
   }
 }
 
@@ -30,8 +30,8 @@ componentDidMount(){
 }
 
 //recieve user selection to filter results
-onSelect(event){
-  console.log(event.target.value)
+onSelect = (event) =>{
+  //console.log(event.target.value)
   this.setState({searchField: event.target.value}) 
 }
 
