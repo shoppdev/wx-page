@@ -48,7 +48,7 @@ const filteredAlerts = this.state.alerts.filter(alert =>{
       <div>
         <header>
         <Search onSelect={this.onSelect}/>
-        <Filters />
+        {/* <Filters /> */}
         </header>
         <div className="mw9 center ph3-ns">
           <div className="cf ph2-ns">
